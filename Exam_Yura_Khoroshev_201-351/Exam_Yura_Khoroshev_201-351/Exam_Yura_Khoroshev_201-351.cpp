@@ -9,45 +9,6 @@ using std::string;
 using std::vector;
 
 
-int num_of_args(vector <bool> f)
-{
-	int n, s;
-	n = f.size();
-	s = pow(2, n);
-	return s;
-}
-
-vector <bool> read_from_file(string file_name, vector<bool> f)
-{
-
-}
-
-bool write_to_file(string file_name, vector<bool> f)
-{
-
-}
-
-string table(vector<bool> f)
-{
-
-}
-
-string func_sdnf(vector<bool> f)
-{
-
-}
-
-string func_schf(vector<bool> f)
-{
-
-}
-
-string func_Zhegalkin(vector<bool> f)
-{
-
-}
-
-
 int main()
 {
 
