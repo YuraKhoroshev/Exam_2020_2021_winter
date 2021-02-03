@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <vector>
 #include <string>
+#include "Header.h"
 
 using std::cin;
 using std::cout;
@@ -13,25 +14,31 @@ int main()
 {
 
     setlocale(LC_ALL, "Russian");
+
     while (true)
     {
         string file_name;
+        int k;
+        std::string input_str = "bmhhbmbmnbbbbnnndfghjkl";
+        std::string roman_number = "LLMMIVII";
         vector <bool> f;
         int N;
-        cout << "1.Проверка на палиндром\n";
-        cout << "2.Поиск выпуклой оболочки\n";
-        cout << "3.Выход\n";
+        cout << "1.\n";
+        cout << "2.\n";
+        cout << "3.\n";
         cin >> N;
         switch (N)
         {
         case 1:
-            int num_of_args(vector <bool> f);
+            roman_to_arab(roman_number);
             break;
         case 2:
-
+            std::cin >> k;
+            func_Pascal(k);
             break;
 
         case 3:
+            func_substr_len(input_str);
             break;
         default:
             break;
